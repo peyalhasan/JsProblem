@@ -116,3 +116,7 @@ for(let letter of text){
 console.log('Reverse Text:  ', revarse)
 
 // Task 15 
+let sentence = 'I love Programming';
+let spaceCount = sentence.split(' ').length-1
+console.log('Space Count',spaceCount);
+
