@@ -126,7 +126,7 @@ let aCount = 0;
 let bCount = 0;
 let nCount = 0;
 let char = 'banana';
-for(ch of char){
+for(let ch of char){
     if('a'.includes(ch)){
         aCount += 1
     }
@@ -139,3 +139,20 @@ for(ch of char){
 }
 console.log(`a = ${aCount} b = ${bCount} n = ${nCount}`)
 
+// Task 17 
+
+let names = 'Naeeim';
+for(const n of names){
+    console.log(n)
+}
+
+//Task 18
+
+let removeVowels = '';
+let String = 'Programming';
+for(const str of String){
+    if(!'aeiouAEIOU'.includes(str)){
+        removeVowels += str;
+    }
+}
+console.log('Remove Vowels :', removeVowels )
