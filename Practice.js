@@ -120,3 +120,22 @@ let sentence = 'I love Programming';
 let spaceCount = sentence.split(' ').length-1
 console.log('Space Count',spaceCount);
 
+//Task 16
+
+let aCount = 0;
+let bCount = 0;
+let nCount = 0;
+let char = 'banana';
+for(ch of char){
+    if('a'.includes(ch)){
+        aCount += 1
+    }
+    else if('b'.includes(ch)){
+        bCount +=1;
+    }
+    else if('n'.includes(ch)){
+        nCount +=1;
+    }
+}
+console.log(`a = ${aCount} b = ${bCount} n = ${nCount}`)
+
