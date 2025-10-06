@@ -156,3 +156,23 @@ for(const str of String){
     }
 }
 console.log('Remove Vowels :', removeVowels )
+
+//Task 19
+let Words = 'I am learnig JavaScript';
+let wordCount = 0;
+let word = Words.split(' ')
+for(const singleWord of word){
+    wordCount += 1;
+}
+console.log('Total Word Count: ',wordCount);
+
+//Task 20
+
+let Capitalil = 'hello world';
+let capital = Capitalil.split(' ');
+let capitalizeWords = '';
+for(const letter of capital){
+    let capi = letter.charAt(0).toLocaleUpperCase() + letter.slice(1);
+   capitalizeWords += capi + ' ';
+}
+console.log('Capitalize First Letter of Each Word: ', capitalizeWords)
